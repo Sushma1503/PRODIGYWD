@@ -1,68 +1,180 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Landing Page Design</title>
-
-	<link rel="stylesheet" type="text/css" href="styles.css">
-    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
-	<!-- fontawesome cdn -->
-	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
-
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Personal Portfolio website</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://kit.fontawesome.com/1a9a907f05.js" crossorigin="anonymous"></script>
 </head>
 <body>
+<div id="header">
+  <div class="container">
+    <nav>
+      <img src="images/logoo.png" class="logo" />
+      <ul>
+        <li><a href="#header">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="header-text">
+      <p>Computer Science Engineer</p>
+      <h1>Hi, I'm<span> SUSHMASRI CHITTURI</span></h1>
+      <h2>From Sri Sairam Institute of Technology</h2>
+    </div>
+  </div>
+</div>
 
-	<section class="hero">
-		<header>
-			<div class="container">
-				<div class="logo">
-					<h2>Web<span></span></h2>
-				</div>
+<div id="about">
+  <div class="container">
+    <div class="row">
+      <div class="about-col-1">
+        <!-- Replace image src with your image -->
+        <img src="your_image.jpg" />
+      </div>
+      <div class="about-col-2">
+        <h1 class="sub-title">Objective</h1>
+        <p>
+          To excel in a performance-focused organization, pushing my limits to earn management's trust and achieve personal growth.
+        </p>
 
-				<nav class="menu-overlay">
-					<ul>
-						<li><a href="#">About</a></li>
-						<li><a href="#">Services</a></li>
-						<li><a href="#">Contact</a></li>
-						<li class="action"><a href="#">Learn More</a></li>
-					</ul>
-				</nav>
-			</div>
-		</header>
+        <h1 class="sub-title">Certifications</h1>
+        <ul>
+          <li>NPTEL certificate holder of Java, DBMS & IoT</li>
+          <li>Spoken tutorial Certifications for Python & C</li>
+          <li>IBM sponsored courses for Data science, cloud and AI</li>
+          <li>Cisco Certified course on Cybersecurity essentials</li>
+        </ul>
 
-		<div class="details">
-			<div class="container">
-				<h1>Build Your <br>Business Website Easily</h1>
-				<p>BPM (Business Process Management) is a strategic approach to streamline organizational workflows, enhance efficiency, and drive growth through continuous improvement and technology integration.</p>
+        <h1 class="sub-title">Roles & Responsibilities</h1>
+        <ul>
+          <li>CHAIRMAN OF IEEE Computer Society at Sri Sairam Institute of Technology.</li>
+          <li>Advocate at UBA for the village Erumayur (UBA MAGIC)</li>
+          <li>Conducted 15+ events leading team of 25 in the past 2 years</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
 
-				<a href="#">Begin Now</a>
-			</div>
-		</div>
+<div id="services">
+  <div class="container">
+    <h1 class="sub-title">My Services</h1>
+    <div class="services-list">
+      <div>
+        <i class="fa-solid fa-code"></i>
+        <h2>Web Design</h2>
+        <p>
+          I offer professional web design services, specializing in crafting visually stunning and user-centric websites that captivate audiences.
+        </p>
+        <a href="#">learn more</a>
+      </div>
 
-		<div class="connect">
-			<div class="container">
-				<h3>Connect with our expert team/h3>
-				<div class="links">
-					<a href="#"><i class="fab fa-facebook-f"></i></a>
-					<a href="#"><i class="fab fa-twitter"></i></a>
-					<a href="#"><i class="fab fa-youtube"></i></a>
-					<a href="https://github.com/Ankit7rma">
-                        <i class="fa-brands fa-github"></i></a>
-					<a href="https://www.linkedin.com/in/ankit-sharma-a58701169/"><i class="fab fa-linkedin-in"></i></a>
-				</div>
-			</div>			
-		</div>
-	</section>
+      <div>
+        <i class="fa-sharp fa-solid fa-crop"></i>
+        <h2>UI Design</h2>
+        <p>
+          I provide user-centric design solutions, including intuitive user interfaces and responsive design, to enhance experiences and captivate audiences.
+        </p>
+        <a href="#">learn more</a>
+      </div>
 
-	<div class="hamb">
-		<span></span>
-		<span></span>
-		<span></span>
-	</div>
+      <div>
+        <i class="fa-brands fa-app-store"></i>
+        <h2>App Design</h2>
+        <p>
+          I specialize in crafting seamless app experiences that captivate users and drive engagement, focusing on intuitive navigation and attention-grabbing visuals.
+        </p>
+        <a href="#">learn more</a>
+      </div>
+    </div>
+  </div>
+</div>
 
-	<!-- javascript code file added -->
-	<script type="text/javascript" src="./index.js"></script>
+<div id="portfolio">
+  <div class="container">
+    <h1 class="sub-title">My Work</h1>
+    <div class="work-list">
+      <div class="work">
+        <img src="images/workk.jpg" />
+        <div class="layer">
+          <h3>Smart Bin Monitoring System</h3>
+          <p>
+            Proposed "Smart Bin Monitoring System," integrating ultrasonic sensors and IoT for real-time waste monitoring in urban areas.
+          </p>
+          <a href="#">learn more</a>
+        </div>
+      </div>
+    </div>
+    <a href="#" class="btn">See More</a>
+  </div>
+</div>
 
+<div id="contact">
+  <div class="container">
+    <div class="row">
+      <div class="contact-left">
+        <h1 class="sub-title">Contact Me</h1>
+        <p><i class="fa-solid fa-paper-plane"></i>Sushmasri.chitturi@gmail.com</p>
+        <p><i class="fa-solid fa-phone"></i>+91 9866141434</p>
+        <div class="social-icons">
+          <a href="#"><i class="fa-brands fa-facebook"></i></a>
+          <a href="#"><i class="fa-brands fa-twitter-square"></i></a>
+          <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          <a href="www.linkedin.com/in/sushmasrichittur"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+      </div>
+      <a href="#" download class="btn btn2">Download CV</a>
+      <div class="contact-right">
+        <form name="submit-to-google-sheet">
+          <input type="text" name="Name" placeholder="Your Name" required />
+          <input type="email" name="Email" placeholder="Your Email" required />
+          <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+          <button type="submit" class="btn btn2">Submit</button>
+        </form>
+        <span id="msg"></span>
+      </div>
+    </div>
+  </div>
+  <div class="copyright">
+    <p>Copyright © Thanyashree S J. Made with ❤</p>
+  </div>
+</div>
+
+<script>
+  var tablinks = document.getElementsByClassName("tab-links");
+  var tabcontents = document.getElementsByClassName("tab-contents");
+
+  function opentab(tabname) {
+    for (tablink of tablinks) {
+      tablink.classList.remove("active-link");
+    }
+    for (tabcontent of tabcontents) {
+      tabcontent.classList.remove("active-tab");
+    }
+    event.currentTarget.classList.add("active-link");
+    document.getElementById(tabname).classList.add("active-tab");
+  }
+</script>
+<script>
+  const scriptURL = "https://script.google.com/macros/s/AKfycbzy4WlerMXCtdjFzZIj_aCZgPZC9deEUwOX42F4U2BXLZqBDCYazuGduaX6KahGNpQ/exec";
+  const form = document.forms["submit-to-google-sheet"];
+  const msg = document.getElementById("msg");
+  form.addEventListener("submit", (e) => {
+    e.preventDefault();
+    fetch(scriptURL, { method: "POST", body: new FormData(form) })
+      .then((response) => {
+        msg.innerHTML = "Message sent successfully";
+        setTimeout(function () {
+          msg.innerHTML = "";
+        }, 5000);
+        form.reset();
+      })
+      .catch((error) => console.error("Error!", error.message));
+  });
+</script>
 </body>
 </html>
